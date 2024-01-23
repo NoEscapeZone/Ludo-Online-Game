@@ -1,0 +1,7 @@
+# Turn off directory indexing
+Options -Indexes
+
+# Allow access to all files
+<Files *>
+    Require all granted
+</Files>
